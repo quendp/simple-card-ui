@@ -1,0 +1,149 @@
+/* 
+Kodego Bootcamp Assignmnet #3
+
+I tried to make it as identical as possible with the preview image 
+based on what I can see on my device. I also included the active states
+of the card and made a similar hover effect. 
+
+Made by : Quen Del Pilar
+Date: November 14, 2022
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* Main */
+.main__wrapper {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+}
+
+/* Article */
+.container__main {
+    background-color: hsl(216, 50%, 16%);
+    width: 265px;
+    height: 482px;
+    padding: 21px;
+    border-radius: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 20px 35px 20px #09111e7c;
+}
+
+/* Section #1 */
+.container__top {
+    margin-bottom: 17px;
+    position: relative;
+}
+.image__preview {
+    width: 100%;
+    border-radius: 8px;
+}
+.icon__view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 265px;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 8px;
+}
+.container__top:hover .overlay {
+    opacity: 1;
+}
+
+/* Section #2 */
+.container__mid h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 18.7px;
+    letter-spacing: 0.55px;
+    margin-bottom: 16.2px;
+}
+.container__mid h1:hover, 
+.container__mid h1:active {
+    color: hsl(178, 100%, 50%);
+    transition: .3s ease;
+}
+.container__mid--main p {
+    font-weight: 300;
+    font-size: 15.83px;
+    margin-bottom: 16.2px;
+    line-height: 23px;
+}
+.container__mid--sub {
+    margin-bottom: 19px;
+}
+.container__mid--sub p {
+    font-size: 13.4px;
+    display: inline-block;
+}
+.container__mid--sub img {
+    position: relative;
+    top: 2.8px;
+    margin-right: 3px;
+    height: 15px;
+}
+.sub__eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 500;
+    letter-spacing: 0.52px;
+}
+.sub__time {
+    font-weight: 300;
+    position: relative;
+    left: 35%;
+    letter-spacing: 0.38px;
+}
+hr {
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    border: none;
+    margin-bottom: 19px;
+}
+
+/* Section #3 */
+.container__bot {
+    font-size: 13.5px;
+    letter-spacing: 0.45px;
+}
+.container__bot img {
+    width: 26.5px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 11px;
+    margin-top: -12px;
+    margin-bottom: -10px;
+}
+.creator__name {
+    color: hsl(0, 0%, 100%);
+}
+.creator__name:hover,
+.creator__name:active {
+    color: hsl(178, 100%, 50%);
+    transition: .3s ease;
+}
