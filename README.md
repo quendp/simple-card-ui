@@ -1,9 +1,28 @@
-# Simple Card UI 
+# Simple Card UI - Frontend Mentor Activity
 
-[View live website](https://quendp.github.io/simple-card-ui/)
+[VIEW LIVE WEBSITE](https://quendp.github.io/simple-card-ui/)
 
-**_Date:_** November 18, 2022
+---
 
-**_Description:_** This is a basic card I made as a requirement to our bootcamp. The task in this activity is to copy the design [here](design/desktop-design.jpg) which can also be seen on the design folder.
+## 📌 Key Features
+- Responsive Design
+- No flexbox or grid layout
+- Dark theme
 
-We are not allowed to use flexbox or grid on this activity which made it a little difficult. This is a very simple activity so it only took me about an hour, yup that's already fast for me. The design is from [frontend mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+
+## 📝 Description 
+This is a basic card I made as a requirement to our bootcamp. The task in this activity is to copy the design on [this image](design/desktop-design.jpg) without using flexbox or grid layout. This is a very simple activity so it only took me about an hour, yup that's already fast for me. I also made sure to apply the active and hover states of some elements as shown on the design.
+
+
+## 🗓️ Date Finished
+November 18, 2022
+
+
+## ⌛ Time Spent
+Less than 1 hour
+
+---
+
+
+### 💛 Credits 
+- Design and images from [frontend mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
